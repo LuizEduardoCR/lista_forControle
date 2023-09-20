@@ -9,8 +9,15 @@
 
 
     //PROCESSAMENTO
-
+    let i = [];
+    let  p = 2
+    for (let contador = 1; contador <= 50; contador++) {
+        if(contador % p != 0){
+            i.push(contador)
+            
+        }
+    }
 
     //SAÍDA
-
+    document.write(`${i.join(" - ")} <br>`)
 </script>
